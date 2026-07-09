@@ -243,13 +243,13 @@
 
 # 11 Multi Multiplication Table
 
-user_input = int(input('Enter a No. '))
-user_input2 = int(input('Enter a No. '))
+# user_input = int(input('Enter a No. '))
+# user_input2 = int(input('Enter a No. '))
 
-while user_input <= user_input2:
-    for i in range (1,11):
-        print (f"{user_input} X {i} = {i*user_input}" ,end="\n")
-    user_input+=1
+# while user_input <= user_input2:
+#     for i in range (1,11):
+#         print (f"{user_input} X {i} = {i*user_input}" ,end="\n")
+#     user_input+=1
 
 
 
