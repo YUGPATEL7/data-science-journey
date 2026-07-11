@@ -1,0 +1,12 @@
+Viva Questions :-
+
+1. What is a List in Python?
+2. What is the difference between append() and extend()? 
+3. What is the difference between remove() and pop()?
+4. What does insert() do? 
+5. How does count() work? 
+6. What is the purpose of sort()?
+7. What is the difference between sort() and reverse()? 
+8. Why is copy() used?
+9. Which function returns the largest value in a list?  
+10. Which function returns the total number of elements in a list?  
