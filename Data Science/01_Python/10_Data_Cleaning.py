@@ -3,3 +3,205 @@ employees = [ ["EMP001","Amit Patel",25000,"IT"], ["EMP002","Priya Shah",30000,"
 # Part A: List Operations 
 
 # Q1 Find the total number of employee records. 
+# print(len(employees))
+
+# # Q2. Add a new employee record. 
+# employees.extend(["EMP011", "Riya Sharma", 32000, "HR"] )
+# print(employees.count("EMP011"))
+
+# # Q3. Remove employee EMP008 from the list. 
+# for emp in employees:
+#     if emp[0]  == "EMP008":
+#         employees.remove(emp)
+#         print("Done")
+#         break
+
+# Q4. Display all employee names only. 
+# for emp in employees : 
+#     print(emp[1])
+
+# Q5. Find employees whose salary is greater than ₹30,000. 
+# for emp in employees : 
+#     if emp[2] is not None and emp[2] >= 30000:
+#         print(emp)
+#     else:
+#         pass
+
+# Part B: Data Cleaning Using List 
+# Q6. Find records having blank employee names. 
+# for emp in employees:
+#     if emp[1] is ""  :
+#         print(emp)
+#     else:
+#         pass
+# # Q7. Find records having blank department names. 
+# for emp in employees:
+#     if emp[3] is ""  :
+#         print(emp)
+#     else:
+#         pass
+
+# Q8. Find records having NULL salary values. 
+# for emp in employees:
+#     if emp[2] is None  :
+#         print(emp)
+#     else:
+#         pass
+
+# # Q9. Find records having negative salary values. 
+# for emp in employees:
+#     if emp[2] is not None and emp[2] < 0  :
+#         print(emp)
+#     else:
+#         pass
+
+# Q10. Replace negative salary with 0. 
+# for emp in employees:
+#     if emp[2] is not None and emp[2] < 0  :
+#         emp[2] = 0
+#         print(emp)
+#     else:
+#         pass
+
+# Q11. Replace NULL salary with average salary of valid employees. 
+# total = 0 
+# count = 0
+# for emp in employees:
+#     if emp[2] is not None:
+#         total+=emp[2]
+#         count+=1
+# avg = total / count
+# for emp in employees:
+#     if emp[2] is None :
+#         emp[2] = avg
+#         print(emp)
+#     else:
+#         pass
+
+# Q12. Remove records having blank employee names. 
+# for emp in employees:
+#     if emp[2] is None or emp[1] == "":
+#         print(emp)
+#         employees.remove(emp)
+#     else:
+#         pass
+
+
+# Part C: Tuple Operations 
+
+
+# Q13. Convert all employee records into tuple format. 
+# tuple_emp = tuple(employees)
+# print(tuple_emp)
+
+# Q14. Display Employee ID and Name using tuple indexing. 
+# for emp in tuple_emp:
+#     print("Name:",emp[1],"Emp ID ", emp[0])
+
+# Q15. Count total tuple records. 
+# print(len(tuple_emp))
+
+# Q16. Find highest salary employee using tuples.
+# highest  = max(tuple_emp,key=lambda x:x[2] if x[2] is not None else 0 )
+# print("Highest Salary:", highest[2])
+
+# Q17. Find lowest salary employee using tuples. 
+# lowest = min(tuple_emp, key=lambda x:x[2] if x[2] is not None else 0)
+# print(lowest)
+
+# Part D: Set Operations 
+
+
+# Q18. Create a set of all departments.
+# set_emp= {emp[3] for emp in employees}
+# print(set_emp)
+
+# Q19. Display unique department names.
+# print(set_emp)
+
+# Q20. Count total unique departments. 
+# print(len(set_emp))
+# Q21. Check whether "Finance" department exists or not. 
+# if "Finance" in set_emp:
+#     print("yes")
+# else:
+#     print("No")
+    
+
+# Q22. Add a new department "Administration". 
+# set_emp.add("Administration")
+# print(set_emp)
+
+# Q23. Remove "Marketing" department.
+# set_emp.discard("Marketing")
+# print(set_emp) 
+
+# Part E: Duplicate Data Cleaning Using Set
+# Q24. Identify duplicate employee names.
+# set_emp_name = {emp[1] for emp in employees}
+# duplicate = set()
+# seen = set()
+
+# 2. Loop through and find duplicates
+# for emp_name in employees:
+#     name = emp_name[1]
+#     if name in seen:
+#         duplicate.add(name)
+#     else:
+#         seen.add(name)
+# print("Duplicate employee names:", duplicate)
+
+# Q25. Create a set of employee names. 
+# print(set_emp_name)
+
+# Q26. Count unique employees. 
+# print(len(set_emp_name))
+
+# Q27. Find duplicate records. Expected Duplicate: "Amit Patel" 
+# print(seen)
+
+# Part F: Data Analysis 
+# Q28. Calculate total salary expenditure. & # Q29. Calculate average salary. 
+# total = 0 
+# count = 0
+# for emp in employees:
+#     if emp[2] is not None:
+#         total+=emp[2]
+#         count+=1
+# avg = total / count
+# for emp in employees:
+#     if emp[2] is None :
+#         emp[2] = avg
+#         print(emp)
+#     else:
+#         pass
+
+
+# Q30. Find maximum salary.
+# total = max(employees, key =lambda x:x[2] if x[2] is not None else 0)
+# print(total[2])
+
+#  Q31. Find minimum salary. 
+# total = min(employees, key =lambda x:x[2] if x[2] is not None else 0)
+# print(total[2])
+
+
+# Part G: Mini Project Employee Data Cleaning Report Perform the following: 
+# ✔ Remove duplicate employee names
+# ✔ Remove blank names 
+# ✔ Replace NULL salary with average salary
+#  ✔ Replace negative salary with 0
+#  ✔ Replace blank department with "Unknown"
+#  ✔ Generate Final Clean Dataset
+# ✔ Display: • Total Employees  • Total Departments  • Total Salary  • Average Salary  • Highest Salary Employee  • Lowest Salary Employee  
+
+
+# Bonus Challenge Create the following functions:
+# def clean_salary(data):
+#      pass
+# def remove_duplicates(data):
+#      pass
+# def find_average_salary(data):
+#     pass
+# def generate_report(data):     
+#      pass 
