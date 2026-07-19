@@ -43,13 +43,25 @@
 
 
 # 5. Swap a Value from Odd Position to Even Position
-dict_no = {1:1,2:2,3:12,4:34,5:43,6:78}
-temp = dict_no[1]
-print(temp)
-for i in range (len(dict_no)):
-    temp = dict_no[i]
-    dict_no[i+1] = dict_no[i]
-    dict_no[i] = temp
+# dict_no = {1:102,2:2,3:12,4:34,5:43,6:78}
+# # temp = dict_no[1]
+# # print(temp)
+# for i in range (1,len(dict_no)):
+#     dict_no[i],dict_no[i+1] = dict_no[i+1],dict_no[i]
+#     # temp = dict_no[i]
+#     # dict_no[i] = dict_no[i+1]
+#     # dict_no[i+1] = temp
     
-print((dict_no))
+# print(dict_no)
 
+# 6 Acceding Order
+# dict_no = {1:102,2:2,3:12,4:34,5:43,6:78}
+# temp = dict_no[1]
+# for i in range(1,len(dict_no)+1):
+#     for j in range(1,len(dict_no)+1):
+#         if (dict_no[i] >  dict_no[j]):
+#             temp = dict_no[i]
+#             dict_no[i] = dict_no[j]
+#             dict_no[j] = temp
+
+# print(dict_no)
