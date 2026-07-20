@@ -112,3 +112,37 @@
 # print("Symetrix Matrix:")
 # for row in arr:
 #     print(row)
+
+
+# 8. |A| + |B| = |C|
+
+# a = [
+#     [10, 1, 234],
+#     [2, 24, 3],
+#     [12, 5, 2]
+# ]
+
+# b = [
+#     [1, 2, 3],
+#     [2, 4, 6],
+#     [3, 6, 9]
+# ]
+
+# c = [[a[i][j] + b[i][j] for j in range(3)] for i in range(3)]
+# print(c)
+# # 8. |A| * |B| = |C|
+
+# a = [
+#     [10, 1, 234],
+#     [2, 24, 3],
+#     [12, 5, 2]
+# ]
+
+# b = [
+#     [1, 2, 3],
+#     [2, 4, 6],
+#     [3, 6, 9]
+# ]
+
+# c = [[a[i][j] * b[i][j] for j in range(3)] for i in range(3)]
+# print(c)
