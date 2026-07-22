@@ -245,39 +245,29 @@
 # print(string)
 
 # 
-# string = "pattern"
-# new_list = list(string)
-# print(new_list)
-# a = 0
-# b=''
-# s=''
-# for i in range(0,5):   # i = 2
-#     for j in range(i) : # j = 2 
-#         if(a < len(string)):
-#             b= ord(new_list[a]) - 32
-#             s=chr(b)
-#             if(j == 0):
-#                 print(s,end="")
-#                 a+=1
-#             else:
-#                 print(new_list[a],end="")
-#                 a+=1
-#         else:
-#             print("*",end='')
-#     print()
-
-
-# P
-# At
-# TER
-# N****/
+string = "photosynthesis"
+new_list = list(string)
+a = 0
+b=''
+s=''
+pause = ""
+for i in range(len(string)):   # i = 2
+    if( pause == "stop"):
+        break
+    for j in range(i) : # j = 2 
+        if(a < len(string)):
+            b= ord(new_list[a]) - 32
+            s=chr(b)
+            if(j == 0):
+                print(s,end="")
+                a+=1
+            else:
+                print(new_list[a],end="")
+                a+=1
+        else:
+            pause = "stop"
+            print("*",end='')
+    print()
 
 
 
-# print(new_list)
-
-# lenght = len(string)
-# new_string = list(string)
-# reversed_list = []
-# for i in range(lenght,0,-1):
-#     reversed_list.append(new_string[i-1])
