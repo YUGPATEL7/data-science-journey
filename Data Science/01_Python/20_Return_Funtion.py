@@ -61,10 +61,11 @@
 #         revs = (revs*10) + last_digit
 #         user_input = user_input // 10
     
-#     print(revs)
 #     if (real_value == revs):
-#         print("It is a Pelindrom")
+#         return "It is a Pelindrom"
+        
 #     else:
-#         print("It is not a Pelindrom")
-# isPelindrom(int(121))
+#         return "It is not a Pelindrom"
 
+# r=isPelindrom(int(128))
+# print(r)
