@@ -35,3 +35,6 @@ print("Grand Total: ",Grand_Total)
 print("Discount (10%): ",Grand_Total-Net_Total)
 print("Net Total: ",Net_Total)
 print("Thanks For Shopping.")
+
+
+
