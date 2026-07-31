@@ -5,7 +5,7 @@ class Demo:
 
     def ReadData(self):
         self.Rollno = int(input('Enter a Rollno'))
-        self.name = input('Enter a Name')
+        self.name    = input('Enter a Name')
 
     def ShowData(self):
         print(self.Rollno,"\t",self.name)
