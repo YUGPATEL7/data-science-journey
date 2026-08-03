@@ -1,6 +1,9 @@
 from SportMembershipClass import SportMembership
+M = 6
 
+#Object used to initialize the instance 
 s = SportMembership()
+
 customer_id = 0
 # customer_info = {
 #     1:{
@@ -33,21 +36,20 @@ customer_id = 0
 #     }
 # }
 
+# Declaring the customer info.that use to store the customer info 
 customer_info = {}
-print("Welcome to use Sport Membership Calualtor :) ")
-no_of_itration = int(input('Enter how many customer you have to enter now: '))
+print("Welcome to the Sport Membership Calculator! ")
 
+# It is used to track customer ID. 
 for c_id,detahils in customer_info.items():
     customer_id = c_id
 
-
-
-for i in range(no_of_itration) :
+# For loop is iterating up to the M time and store the customer info. 
+for i in range(M) :
     customer_id+=1
     s.read_data(i)
     charge =s.charges() * s.is_offer_apply  
-
-    print(f"\t\tThe membership of fee from {s.name} is {charge}")
+    print(f"\t\tThe membership fee for {s.name} is {charge}")
     print("------------------------------------------------------")
     customer_info[customer_id]={
         "name":s.name,
@@ -57,6 +59,7 @@ for i in range(no_of_itration) :
     }
     
 
+# It's shows the summary
 print("Summary of Membership Fee")
 print("=================================================")
 print("Name\tMonths\tSpecialOffer\tCharge")
