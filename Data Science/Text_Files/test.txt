@@ -1,0 +1,3 @@
+name    phone   email
+om	6866534354	y@gmail.com
+yug	6866534354	y@gmail.com
