@@ -1,0 +1,54 @@
+{
+    "1": {
+        "name": "yug ",
+        "city": "jl",
+        "mobile": "6465464887",
+        "adderss": "hu",
+        "scrap_info": {
+            "scrap_type": "ir",
+            "weight": 465,
+            "amount": 45,
+            "total_amount": 20925
+        }
+    },
+    "2": {
+        "name": "yug ",
+        "city": "jl",
+        "mobile": "6465464887",
+        "adderss": "hu",
+        "scrap_info": {
+            "scrap_type": "cu",
+            "weight": 45,
+            "amount": 468,
+            "total_amount": 21060
+        }
+    },
+    "3": {
+        "name": "om",
+        "city": "hmt",
+        "mobile": "4123567895",
+        "address": "ko",
+        "scrap_info": [
+            {
+                "scrap_type": "mg",
+                "weight": 45,
+                "amount": 65,
+                "total_amount": 2925
+            }
+        ]
+    },
+    "4": {
+        "name": "om",
+        "city": "hmt",
+        "mobile": "4123567895",
+        "address": "ko",
+        "scrap_info": [
+            {
+                "scrap_type": "op",
+                "weight": 23,
+                "amount": 78,
+                "total_amount": 1794
+            }
+        ]
+    }
+}

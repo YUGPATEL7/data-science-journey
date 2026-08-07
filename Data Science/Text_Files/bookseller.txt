@@ -1,1 +1,20 @@
-{}
+{
+    "1": {
+        "author": "yug",
+        "book_name": "mind in ideal\\",
+        "price": 786,
+        "publisher": "patel",
+        "stock": 65,
+        "total": 51090,
+        "notification": ""
+    },
+    "2": {
+        "author": "om",
+        "book_name": "l",
+        "price": 78,
+        "publisher": "po",
+        "stock": 3,
+        "total": 234,
+        "notification": ""
+    }
+}

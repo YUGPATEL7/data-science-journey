@@ -42,9 +42,9 @@ class BookSeller:
         gt_20 = 0
         ls_20 = 0
         print("No\tAuthor\tBook Name\tPrice\tPublisher\tStock\tTotal\tNotification")
-        for key,values in books.items():
+        for _,values in books.items():
             print("----------------------------------------------------------------------------")
-            print(key)
+            
             print(f"{values['author']}\t{values['book_name']}\t{values['price']}\t{values['publisher']}\t{values['total']}\t{values['notification']}")
             if(values['stock'] < 5):
                 ls_20+=1

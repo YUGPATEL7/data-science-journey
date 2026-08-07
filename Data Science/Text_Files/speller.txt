@@ -1,0 +1,38 @@
+{
+    "1": {
+        "name": "yug",
+        "city": "salal",
+        "mobile": "4679465431",
+        "adderss": "bh",
+        "scrap_info": {
+            "scrap_type": "cu",
+            "weight": 45,
+            "amount": 123,
+            "total_amount": 5535
+        }
+    },
+    "2": {
+        "name": "yug",
+        "city": "salal",
+        "mobile": "4679465431",
+        "adderss": "bh",
+        "scrap_info": {
+            "scrap_type": "iron",
+            "weight": 78,
+            "amount": 45,
+            "total_amount": 3510
+        }
+    },
+    "3": {
+        "name": "yug",
+        "city": "salal",
+        "mobile": "4679465431",
+        "adderss": "bh",
+        "scrap_info": {
+            "scrap_type": "mg",
+            "weight": 45,
+            "amount": 78,
+            "total_amount": 3510
+        }
+    }
+}
